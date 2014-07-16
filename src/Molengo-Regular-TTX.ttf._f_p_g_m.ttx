@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <fpgm>
+    <assembly>
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 0
+      RS[ ]
+      EQ[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      SWAP[ ]
+      JROF[ ]
+      RTG[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      77
+      JMPR[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      1 0
+      RS[ ]
+      EQ[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      SWAP[ ]
+      JROF[ ]
+      RTHG[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      JMPR[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      2 0
+      RS[ ]
+      EQ[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      SWAP[ ]
+      JROF[ ]
+      RTDG[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      51
+      JMPR[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      3 0
+      RS[ ]
+      EQ[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      SWAP[ ]
+      JROF[ ]
+      RDTG[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      38
+      JMPR[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      4 0
+      RS[ ]
+      EQ[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      SWAP[ ]
+      JROF[ ]
+      RUTG[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      25
+      JMPR[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      5 0
+      RS[ ]
+      EQ[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      SWAP[ ]
+      JROF[ ]
+      ROFF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      12
+      JMPR[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      6 0
+      RS[ ]
+      EQ[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      RS[ ]
+      SROUND[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      FDEF[ ]
+      NPUSHB[ ]  /* 16 values pushed */
+      0 2 1 3 5 6 7 8 10 12 9 11 13 14 15 16
+      RS[ ]
+      WS[ ]
+      RS[ ]
+      WS[ ]
+      RS[ ]
+      WS[ ]
+      RS[ ]
+      WS[ ]
+      RS[ ]
+      WS[ ]
+      RS[ ]
+      WS[ ]
+      RS[ ]
+      WS[ ]
+      RS[ ]
+      WS[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      23
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      22
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      4 0
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      RS[ ]
+      GT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      SWAP[ ]
+      WS[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      DUP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      22
+      RS[ ]
+      NEQ[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      23
+      RS[ ]
+      NEQ[ ]
+      AND[ ]
+      IF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      SWAP[ ]
+      WS[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      RS[ ]
+      GT[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      -37
+      SWAP[ ]
+      JROF[ ]
+      POP[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      RS[ ]
+      GT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      ELSE[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      RS[ ]
+      EIF[ ]
+      ENDF[ ]
+    </assembly>
+  </fpgm>
+
+</ttFont>

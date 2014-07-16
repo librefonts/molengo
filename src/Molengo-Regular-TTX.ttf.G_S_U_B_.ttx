@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=2 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=1 -->
+            <FeatureIndex index="0" value="0"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=1 -->
+            <FeatureIndex index="0" value="0"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=1 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="ccmp"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=2 -->
+      <Lookup index="0">
+        <LookupType value="5"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ContextSubst index="0" Format="2">
+          <Coverage Format="1">
+            <Glyph value="i"/>
+            <Glyph value="j"/>
+            <Glyph value="uni0268"/>
+          </Coverage>
+          <ClassDef Format="2">
+            <ClassDef glyph="acutecomb" class="2"/>
+            <ClassDef glyph="dotbelowcomb" class="3"/>
+            <ClassDef glyph="hookabovecomb" class="2"/>
+            <ClassDef glyph="i" class="1"/>
+            <ClassDef glyph="j" class="1"/>
+            <ClassDef glyph="tildecomb" class="2"/>
+            <ClassDef glyph="uni0268" class="1"/>
+            <ClassDef glyph="uni0302" class="2"/>
+            <ClassDef glyph="uni0304" class="2"/>
+            <ClassDef glyph="uni0306" class="2"/>
+            <ClassDef glyph="uni0307" class="2"/>
+            <ClassDef glyph="uni0308" class="2"/>
+            <ClassDef glyph="uni030A" class="2"/>
+            <ClassDef glyph="uni030B" class="2"/>
+            <ClassDef glyph="uni030C" class="2"/>
+            <ClassDef glyph="uni030D" class="2"/>
+            <ClassDef glyph="uni030E" class="2"/>
+            <ClassDef glyph="uni0311" class="2"/>
+            <ClassDef glyph="uni0312" class="2"/>
+            <ClassDef glyph="uni0313" class="2"/>
+            <ClassDef glyph="uni0314" class="2"/>
+            <ClassDef glyph="uni0315" class="2"/>
+            <ClassDef glyph="uni0324" class="3"/>
+            <ClassDef glyph="uni0325" class="3"/>
+            <ClassDef glyph="uni0326" class="3"/>
+            <ClassDef glyph="uni0327" class="3"/>
+            <ClassDef glyph="uni0328" class="3"/>
+            <ClassDef glyph="uni0329" class="3"/>
+            <ClassDef glyph="uni0331" class="3"/>
+          </ClassDef>
+          <!-- SubClassSetCount=4 -->
+          <SubClassSet index="1">
+            <!-- SubClassRuleCount=4 -->
+            <SubClassRule index="0">
+              <!-- GlyphCount=2 -->
+              <!-- SubstCount=1 -->
+              <Class index="0" value="2"/>
+              <SubstLookupRecord index="0">
+                <SequenceIndex value="0"/>
+                <LookupListIndex value="1"/>
+              </SubstLookupRecord>
+            </SubClassRule>
+            <SubClassRule index="1">
+              <!-- GlyphCount=3 -->
+              <!-- SubstCount=1 -->
+              <Class index="0" value="3"/>
+              <Class index="1" value="2"/>
+              <SubstLookupRecord index="0">
+                <SequenceIndex value="0"/>
+                <LookupListIndex value="1"/>
+              </SubstLookupRecord>
+            </SubClassRule>
+            <SubClassRule index="2">
+              <!-- GlyphCount=4 -->
+              <!-- SubstCount=1 -->
+              <Class index="0" value="3"/>
+              <Class index="1" value="3"/>
+              <Class index="2" value="2"/>
+              <SubstLookupRecord index="0">
+                <SequenceIndex value="0"/>
+                <LookupListIndex value="1"/>
+              </SubstLookupRecord>
+            </SubClassRule>
+            <SubClassRule index="3">
+              <!-- GlyphCount=5 -->
+              <!-- SubstCount=1 -->
+              <Class index="0" value="3"/>
+              <Class index="1" value="3"/>
+              <Class index="2" value="3"/>
+              <Class index="3" value="2"/>
+              <SubstLookupRecord index="0">
+                <SequenceIndex value="0"/>
+                <LookupListIndex value="1"/>
+              </SubstLookupRecord>
+            </SubClassRule>
+          </SubClassSet>
+        </ContextSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="i" out="dotlessi"/>
+          <Substitution in="j" out="uni0237"/>
+          <Substitution in="uni0268" out="uni0268.dotless"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
